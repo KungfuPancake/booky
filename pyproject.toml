@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "booky"
+version = "0.1.0"
+description = ""
+authors = ["René Koppe <rene@xargon.de>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pillow = "11.1.0"
+pypdf = "^5.3.0"
+ocrmypdf = "^16.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
